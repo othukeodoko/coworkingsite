@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Container Elements*/
+.container{
+    border: 1px solid red;
+    height: 100vh;
+    font-size: 18px;
+}
+/*Navbar Section*/
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+}
+
+/*Hero Elements*/
+header{
+    color: black;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+.top{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.646);
+    color: white;
+    padding: 0.5rem;
+}
+.section-image{
+    width: 100%;
+    border: 1px red solid;
+}
+.section-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-book {
+    background-color: rgba(255, 0, 0, 0.463);
+    border-radius: 10%;
+    border: none;
+    margin-right: 10px;
+}
